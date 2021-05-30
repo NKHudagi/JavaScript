@@ -2,12 +2,12 @@ var makeDecoction = ['boil water', 'add tea powder', 'boil']
 
 let strain = ['get a cup', 'strain the tea']
 
-var masala = ['add Caradmum', 'add ginger', 'boil']
+var masala = ['add Caradamum', 'add ginger', 'boil']
 
 let milk = ['put milk', 'boil more']
 
 
-let makeMasalTea = [...makeDecauction, ...masala,...milk, ...strain]
+let makeMasalTea = [...makeDecoction, ...masala,...milk, ...strain]
 
 
 console.log(makeMasalTea);
